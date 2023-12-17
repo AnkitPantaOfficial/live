@@ -1,0 +1,148 @@
+
+
+.fraggerframe {
+    position: relative;
+    width: 277px;
+    height: 803px;
+  }
+.FRAGER {
+    width: 267px;
+    height: 171px;
+    position: relative  ;
+    left: 1944px;
+    top: 215px;
+   
+    
+  }
+  .sidebar{
+    position: relative;
+    margin-top: 62px;
+  }
+  
+  .FRAGER .fraggeroverlap-group {
+    position: relative;
+    height: 171px;
+  }
+  
+  .FRAGER .fraggerrectangle {
+    position: relative;
+    width: 265px;
+    height: 39px;
+    top: 47px;
+    left: 1px;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 86.51% 91.42%, 85.25% 100%, 4.87% 100%, 0% 67.5%);
+  }
+  
+  .FRAGER .fraggerrectangle-2 {
+    position: relative;
+    width: 265px;
+    height: 79px;
+    top: 47px;
+    left: 1px;
+    clip-path: polygon(3.01% 0%, 28.95% 0%, 32.16% 12.5%, 92.11% 12.5%, 95.49% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 12.5%);
+  }
+  
+  .FRAGER .TopPlayerTeamLogo{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    top: 10px;
+    left: 185px;
+    object-fit: cover;
+  }
+  
+  .FRAGER .fraggerplayer {
+    position: absolute;
+    width: 93px;
+    height: 128px;
+    top: 0;
+    left: 89px;
+  }
+  
+  .FRAGER .fraggerplayer-photo {
+    position: absolute;
+    width: 123px;
+    height: 181px;
+    top: -16px;
+    left: 72px;
+    object-fit: cover;
+  }
+  
+  .FRAGER .fraggerkill,
+  .FRAGER .fraggerposition {
+    position: absolute;
+    font-family: "Teko-SemiBold", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .FRAGER .fraggerkill {
+    top: 11px;
+    left: 11px;
+    font-size: 20px;
+    
+  }
+  
+  .FRAGER .fraggerkill-point {
+    position: absolute;
+    top: 26px;
+    left: 11px;
+    font-family: "Teko-SemiBold", Helvetica, sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .FRAGER .fraggerposition {
+    top: 7px;
+    left: 17px;
+    font-size: 23.1px;
+  }
+  
+  .FRAGER .fraggerplayer-name {
+    top: 7px;
+    left: 65px;
+    font-size: 23.1px;
+    position: absolute;
+    font-family: "Teko-SemiBold", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+ .frager-box{
+    position: absolute;
+    width: 257px;
+    height: 52px;
+    top: 721px;
+    left: 10px;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 89.52%, 84.17% 89.52%, 80.17% 100%, 6.77% 100%, 0% 74.55%);
+ }
+ .FRAGER .top-fragger{
+    top: 733px;
+    left: 65px;
+    font-size: 23.1px;
+    position: absolute;
+    font-family: "Teko-SemiBold", Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+ }
+/* aletfragger.css */
+
+.fraggerframe {
+  transition: margin-left 2s; /* Adjust the duration as needed */
+}
+
+.sidebar-hidden {
+  margin-left: -290px; /* Adjust the width of the sidebar */
+}
+
+

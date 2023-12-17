@@ -1,0 +1,239 @@
+.overall-stats{
+    display: flex;
+    position: relative;
+    left: 1563px;
+    top: 277px;
+}
+.overall-statsdiv{
+    position: absolute;
+    
+}
+
+.overall-stats.div{
+    height: 600px; /* Adjust as needed */
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+.overall-stats .stats{
+    height: 500px; /* Adjust as needed */
+    width: 250px;
+}
+.overall-stats .stats-top-box {
+    height: 30px;
+    left: 1px;
+    position: absolute;
+    top: 17px;
+    width: 220px;
+}
+.overall-stats .stats-teambox {
+    height: 32px;
+}
+
+.overall-stats .stats-top-box {
+    background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.95) -9%,
+        rgba(127,0,255, 0.95) 23.38%,
+        rgba(0, 0, 0, 0.95) 46.35%
+    );
+    height: 40px;
+    width: 282px;
+    position: absolute;
+}
+.overall-stats .overal-TEAM{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    left: 147px;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    text-shadow: none !important;
+}
+.overall-stats .background {
+    height: 104px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 321px;
+}
+
+.overall-stats .div-wrapper{
+    background: linear-gradient( 133deg, rgb(255,255,255) -8%, rgb(127,0,255) 56% );
+    height: 40px;
+    left: 286px;
+    position: absolute;
+    top: 17px;
+    width: 73px;
+}
+.overall-stats .text-wrapper-2{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    left: 3px;
+    position: absolute;
+    top: 10px;
+    text-shadow: none !important;
+}
+
+.overall-stats .overall-box{
+  
+    height: 640px;
+    position: relative;
+    top: 59px;
+    width: 357px;
+}
+
+.overall-stats .overall-stats-box{
+    height: 40px;
+    position: relative;
+}
+
+.overall-stats .rank-box{
+    background-color: #ffffffd9;
+    height: 32px;
+    position: relative;
+    width: 41px;
+    
+}
+
+.overall-stats .stats-rank{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    left: 0px;
+    position: relative;
+    text-align: center;
+    top: 6px;
+    text-shadow: none !important;
+}
+
+.overall-box .stats-name-box{
+    background-color: #ffffffd9;
+    height: 32px;
+    left: 43px;
+    position: relative;
+    top: -26px;
+    width: 239px;
+}
+.overall-stats .stats-logo{
+    background-color: #fffffff2;
+    height: 32px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 40px;
+}
+.overall-stats .logo{
+    height: 32px;
+    left: 0;
+    object-fit: cover;
+    position: relative;
+    top: 2px;
+}
+.overall-stats .stats-flag{
+    height: 32px;
+    left: 40px;
+    position: relative;
+    top: -45px;
+    width: 40px;
+}
+
+.overall-stats .stats-Flag{
+    height: 19px;
+    left: 10px;
+    object-fit: cover;
+    position: relative;
+    top: 18px;
+    width: 15px;
+}
+.overall-stats .text-wrapper-4{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    left: 82px;
+    position: relative;
+    top: -60px;
+    text-shadow: none !important;
+}
+.overall-stats .point-box{
+    background-color: #ffffffe6;
+    height: 32px;
+    left: 284px;
+    position: relative;
+    top: -58px;
+    width: 73px;
+}
+.overall-stats .text-wrapper-5{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    left: 5px;
+    top: 3px;
+    position: relative;
+    text-shadow: none !important;
+    text-align: center;
+}
+
+.overall-stats .bottom-part {
+    background: linear-gradient(119deg, rgb(127, 0, 255) 0%, rgb(0, 0, 0) 32.35%, rgb(0, 0, 0) 71.5%, rgb(127, 0, 255) 99.28% );
+    height: 57px;
+    left: 1px;
+    position: absolute;
+    top: -42px;
+    width: 358px;
+    z-index: -1;
+}
+
+
+.overall-stats .stats-text-wrapper-6{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    left: 33px;
+    position: absolute;
+    
+}
+.overall-stats .stats-overlap{
+    height: 52px;
+    position: relative;
+    top: 5px;
+}
+.overall-stats .text-wrapper-7{
+    position: absolute;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    left: 58px;
+    top: 0px;
+    text-shadow: none !important;
+}
+.overall-stats .img{
+    height: 181px;
+    left: -21px;
+    position: absolute;
+    top: -2px;
+    width: 453px;   
+    opacity: 0.5;
+}
+/* aletfragger.css */
+
+.fraggerframe {
+    transition: margin-left 2s; /* Adjust the duration as needed */
+  }
+  
+  .sidebar-hidden {
+    margin-left: -290px; /* Adjust the width of the sidebar */
+  }
+  
+  
+  
